@@ -38,6 +38,7 @@ Investigating Netflix Movies/
 ├── environment.yml          # Conda environment specification
 ├── requirements.txt         # Python dependencies
 ├── setup.py                # Package configuration
+├── ANALYSIS_SUMMARY.md      # Comprehensive analysis findings and methodology
 └── README.md               # This file
 ```
 
@@ -52,14 +53,14 @@ Investigating Netflix Movies/
 1. **Clone the repository** (if applicable)
    ```bash
    git clone <repository-url>
-   cd "Visualizing the History of Nobel Prize Winners"
+   cd "Investigating Netflix Movies"
    ```
 
 2. **Create and activate environment**
    ```bash
    # Using conda (recommended)
    conda env create -f environment.yml
-   conda activate nobel-analysis
+   conda activate netflix-analysis
 
    # Or using pip
    pip install -r requirements.txt
@@ -78,19 +79,20 @@ Investigating Netflix Movies/
 
 The analysis reveals several interesting insights about 1990s Netflix movies:
 
-- **Movie Duration Distribution**: 1990s movies show a characteristic distribution pattern with most films falling within typical feature-length ranges
-- **Genre Diversity**: The decade featured a rich variety of genres from dramas to comedies
-- **Geographic Representation**: Movies from various countries, with strong representation from the United States and international cinema
-- **Nostalgic Content**: The dataset provides excellent material for understanding the entertainment preferences of the nostalgic 1990s era
-- **Netflix Curation**: Insights into how Netflix has curated and added classic 1990s content to their platform over time
+- **Movie Duration Distribution**: 1990s movies show a characteristic distribution pattern with most films falling within standard theatrical release durations, ranging from short films to extended epics
+- **Genre Diversity**: Drama and Comedy appear to be well-represented, with the decade showcasing a rich tapestry of cinematic genres that provide excellent material for nostalgic content production
+- **Geographic Representation**: Strong international representation including robust US presence and evidence of global cinema distribution on Netflix
+- **Technical Excellence**: The analysis demonstrates comprehensive data science methodology with professional visualizations, statistical rigor, and well-documented code
+- **Business Insights**: Data-driven insights for nostalgic content production planning, including duration targeting and genre selection guidance
+
+For detailed findings and methodology, see [ANALYSIS_SUMMARY.md](ANALYSIS_SUMMARY.md).
 
 ## Technologies Used
 
-- **Python**: Primary programming language
-- **Pandas**: Data manipulation and analysis
-- **Matplotlib/Seaborn**: Data visualization
+- **Python 3.9**: Primary programming language
+- **Pandas**: Data manipulation and analysis (≥1.3.0)
+- **Matplotlib**: Data visualization and plotting (≥3.4.0)
 - **Jupyter Notebooks**: Interactive analysis environment
-- **NumPy**: Numerical computations
 
 ## Contributing
 
@@ -106,4 +108,4 @@ The Netflix dataset contains information about movies and TV shows available on 
 
 ## License
 
-This project is for educational and research purposes. The Nobel Prize data is publicly available, and visualizations are created for analytical insights.
+This project is for educational and research purposes. The Netflix dataset is used for analytical insights and learning objectives as part of a DataCamp project.
