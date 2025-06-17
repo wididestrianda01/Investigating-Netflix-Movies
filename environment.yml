@@ -1,0 +1,14 @@
+name: netflix-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - jupyter
+  - notebook
+  - pandas>=1.3.0
+  - numpy>=1.21.0
+  - matplotlib>=3.4.0
+  - seaborn>=0.11.0
+  - scipy>=1.7.0
